@@ -93,7 +93,8 @@ def mine():
     # Forge the new Block by adding it to the chain with the proof
     
     response1 = {
-        "Response": "Missing proof or id"
+        "Response": "Missing proof or id",
+        "Error Type": 400
     }
     response2 = {
         'Response': "New Block Forged"
