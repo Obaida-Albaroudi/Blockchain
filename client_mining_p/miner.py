@@ -91,4 +91,4 @@ if __name__ == '__main__':
             coins+=1
             print(f"We have {coins} Lambda Coins")
         # print the message from the server.
-        print(f"Error type: {data['Error Type']} \n Message: {data['Response']}")
+        print(data["Response"])
